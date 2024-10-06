@@ -229,7 +229,7 @@ label grandroomB:
     show s thinking at half_center_sizeVS
     $ Responded = False
     python:
-        apikey = "sk-jRh4hzPEwwlX_6b7G4FW0RrYZ9As45Pq1JHGprNB8CT3BlbkFJmSlvOXyNhYGQixxbIgCEYCKUS77ZPUBLGOynxl_TsA"
+        apikey = "######"
 
         import chatgpt
 

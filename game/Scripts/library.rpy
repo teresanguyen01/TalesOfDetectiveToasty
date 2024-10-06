@@ -109,7 +109,7 @@ label libraryB:
     default Responded = False
     $ Responded = False
     python:
-        apikey = "sk-jRh4hzPEwwlX_6b7G4FW0RrYZ9As45Pq1JHGprNB8CT3BlbkFJmSlvOXyNhYGQixxbIgCEYCKUS77ZPUBLGOynxl_TsA"
+        apikey = "######"
 
         import chatgpt
 

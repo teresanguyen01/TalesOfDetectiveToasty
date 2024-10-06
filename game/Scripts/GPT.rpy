@@ -8,7 +8,7 @@ label gpt_sugar:
     python:
         #We get the API Key from the User. Because you should NEVER give your API key in any form with your game let alone share it on a public repository
         #How to distribute your game with an embbed API KEY ? I'll soon make a special server system to make it possible
-        apikey = "sk-jRh4hzPEwwlX_6b7G4FW0RrYZ9As45Pq1JHGprNB8CT3BlbkFJmSlvOXyNhYGQixxbIgCEYCKUS77ZPUBLGOynxl_TsA"
+        apikey = "#######"
         #renpy.input("What is your OPENAI API Key? (leave empty if you don't have any)", length=64)
 
 
