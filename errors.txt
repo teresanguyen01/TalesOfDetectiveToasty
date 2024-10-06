@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/Scripts/ScenceGrandR.rpy", line 89: expected 'image_name_component' not found.
+    show 
+         ^
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Sun Oct  6 00:47:31 2024

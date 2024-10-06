@@ -1,0 +1,43 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/Scripts/library.rpy", line 111, in script
+    python:
+  File "game/Scripts/library.rpy", line 134, in <module>
+    messages = chatgpt.completion(messages, api_key=apikey)
+Exception: Error: 401, {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************OdoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/Scripts/library.rpy", line 111, in script
+    python:
+  File "/Volumes/renpy-8.3.2-sdk/renpy-8.3.2-sdk/renpy/ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Volumes/renpy-8.3.2-sdk/renpy-8.3.2-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/Scripts/library.rpy", line 134, in <module>
+    messages = chatgpt.completion(messages, api_key=apikey)
+  File "python-packages/chatgpt/__init__.py", line 38, in completion
+Exception: Error: 401, {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************OdoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+macOS-14.2.1-arm64-arm-64bit arm64
+Ren'Py 8.3.2.24090902
+Yhack24 1.0
+Sun Oct  6 03:33:52 2024
